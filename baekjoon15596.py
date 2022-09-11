@@ -1,0 +1,8 @@
+a = int(input())
+def solve(a):
+    ans = 0
+    for i in a:
+        ans = ans + i
+    return ans
+a = solve(a)
+print(a)
